@@ -1,0 +1,311 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+
+
+.fixed_top_panel {
+    background-color: #a0b3a8;
+    height: 150px;
+}
+
+.access_panel_contents {
+    background-color: #a0b3a8;
+    height: 30px;
+    width: 150px;
+    opacity: 0.8;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.arrow_bottom_icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(0.7);
+}
+
+.access_panel_contents:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.access_panel_contents {
+    cursor: pointer;
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
+.movable_panel_contents {
+    height: 50px;
+    background-color: #a0b3a8;
+}
+
+.movable_panel_text {
+    color: #636250;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+    .movable_panel_text:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+.link_text_style {
+    text-decoration: none;
+}
+
+.arrow_top_icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(0.7);
+    transform: rotate(180deg);
+}
+
+.ticket_box {
+    background-color: rgba(99, 98, 80, 0.3);
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ticket_left_part {
+    width: 160px;
+    height: 150px;
+    border-right: 4px dashed #81806c;
+    color: #636250;
+    font-size: 10px;
+    background: linear-gradient(135deg, transparent 10px, rgb(253, 251, 238) 0) top left, linear-gradient(45deg, transparent 10px, rgb(253, 251, 238) 0) bottom left;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.ticket_right_part_cover {
+    opacity: 0.8;
+    width: 310px;
+    height: 150px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.button_pickup {
+    border-color: #c0ce97;
+    border-width: 2px;
+    color: #636250;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+    .button_pickup:hover {
+        background-color: #c0ce97;
+        border-color: #c0ce97;
+        color: white;
+        opacity: 1;
+    }
+
+.show_more_button {
+    padding-left: 125px;
+    padding-right: 125px;
+    font-size: 12px;
+    opacity: 0.5;
+    border-color: #636250;
+    border-width: 1px;
+    border-color: #636250;
+}
+
+    .show_more_button:hover {
+        opacity: 1;
+    }
+
+.LS_box {
+    background-color: rgba(192, 206, 151, 0.5);
+    color: #636250;
+    border-radius: 10px;
+}
+
+.color {
+    background-color: #e5dcd2 !important;
+}
+
+.color_submit_button {
+    background-color: #636250 !important;
+}
+
+.LS_button {
+    border-radius: 25px;
+    background-color: #636250;
+    color: white;
+    font-size: 12px;
+    width: 300px;
+    opacity: 0.7;
+}
+
+    .LS_button:hover {
+        color: white;
+        opacity: 1;
+    }
+
+.first_part_input_phone_number:hover {
+    cursor: default;
+}
+
+.first_part_input_phone_number {
+    width: 53px;
+    border: 0px;
+    border-radius: 25px 0px 0px 25px;
+    font-size: 12px;
+    outline-width: 0px;
+}
+
+.L_title {
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.input_password_style {
+    width: 300px;
+    border-radius: 25px;
+    font-size: 12px;
+    outline-width: 0px;
+    border: 0px;
+}
+
+.input_phone_number_style {
+    border-radius: 0px 25px 25px 0px;
+    font-size: 12px;
+    width: 248px;
+    outline-width: 0px;
+    border: 0px;
+}
+
+.help_text_style {
+    color: #636250;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+    .help_text_style:hover {
+        color: #636250;
+        opacity: 1;
+    }
+
+.S_input_style {
+    border-radius: 25px;
+    border: 0px;
+    font-size: 15px;
+    width: 300px;
+    outline-width: 0px;
+    opacity: 0.7;
+}
+
+.S_title {
+    opacity: 0.5;
+}
+
+    .S_title:hover {
+        opacity: 1 !important;
+        cursor: pointer;
+    }
+
+.CS_icon_style {
+    opacity: 0.3;
+    border-color: #636250;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 3px;
+    width: 75px;
+    height: 75px;
+}
+
+    .CS_icon_style:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+.opacity03 {
+    opacity: 0.3;
+}
+
+.close_icon {
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;
+    text-align: right;
+}
+
+    .close_icon:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+.input:hover {
+    opacity: 1;
+}
+
+.input:focus {
+    opacity: 1;
+}
